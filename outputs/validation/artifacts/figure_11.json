@@ -1,0 +1,11 @@
+{
+  "artifact": "figure_11",
+  "mode": "figures",
+  "run_id": "1bed01c849a348febc769c2b4d6ac29a",
+  "rendered_file_sha256": {
+    "png": "8eeb3a605c2e267f74af80fc86430ed005e20dea6d13bcfad6cd9b7b34b5a000",
+    "svg": "c0eb83abfbeaef27a09e9df6e576c25e8dd002038004b4930b1fecf1fd112bc0"
+  },
+  "axes": 1,
+  "dpi": 360
+}

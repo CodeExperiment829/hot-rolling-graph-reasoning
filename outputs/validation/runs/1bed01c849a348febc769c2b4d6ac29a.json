@@ -1,0 +1,17 @@
+{
+  "mode": "figures",
+  "run_id": "1bed01c849a348febc769c2b4d6ac29a",
+  "completed_at": "2026-11-22T12:44:44+00:00",
+  "elapsed_seconds": 6.647,
+  "artifacts": [
+    "figure_05",
+    "figure_06",
+    "figure_07",
+    "figure_08",
+    "figure_09",
+    "figure_10",
+    "figure_11",
+    "figure_12"
+  ],
+  "limited_resources": []
+}

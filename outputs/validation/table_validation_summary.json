@@ -1,0 +1,83 @@
+{
+  "status": "verified",
+  "check_scope": "Run association, file integrity and rendered structure. Paper agreement is assessed in the release report.",
+  "artifacts": {
+    "table_02a": {
+      "structure": "verified",
+      "rows": 3,
+      "columns": 3,
+      "resource_coverage": "available",
+      "run_id": "0f1072eab354494db613701f6b43e81f"
+    },
+    "table_02b": {
+      "structure": "verified",
+      "rows": 2,
+      "columns": 3,
+      "resource_coverage": "available",
+      "run_id": "0f1072eab354494db613701f6b43e81f"
+    },
+    "table_03": {
+      "structure": "verified",
+      "rows": 4,
+      "columns": 4,
+      "resource_coverage": "available",
+      "run_id": "0f1072eab354494db613701f6b43e81f"
+    },
+    "table_05": {
+      "structure": "verified",
+      "rows": 1,
+      "columns": 3,
+      "resource_coverage": "available",
+      "run_id": "0f1072eab354494db613701f6b43e81f"
+    },
+    "table_10": {
+      "structure": "verified",
+      "rows": 6,
+      "columns": 3,
+      "resource_coverage": "available",
+      "run_id": "0f1072eab354494db613701f6b43e81f"
+    },
+    "table_11": {
+      "structure": "verified",
+      "rows": 12,
+      "columns": 4,
+      "resource_coverage": "available",
+      "run_id": "0f1072eab354494db613701f6b43e81f"
+    },
+    "table_12": {
+      "structure": "verified",
+      "rows": 5,
+      "columns": 6,
+      "resource_coverage": "available",
+      "run_id": "0f1072eab354494db613701f6b43e81f"
+    },
+    "table_13": {
+      "structure": "verified",
+      "rows": 4,
+      "columns": 6,
+      "resource_coverage": "available",
+      "run_id": "0f1072eab354494db613701f6b43e81f"
+    },
+    "table_14": {
+      "structure": "verified",
+      "rows": 5,
+      "columns": 6,
+      "resource_coverage": "available",
+      "run_id": "0f1072eab354494db613701f6b43e81f"
+    },
+    "table_15": {
+      "structure": "verified",
+      "rows": 3,
+      "columns": 6,
+      "resource_coverage": "available",
+      "run_id": "0f1072eab354494db613701f6b43e81f"
+    },
+    "table_16": {
+      "structure": "verified",
+      "rows": 5,
+      "columns": 4,
+      "resource_coverage": "available",
+      "run_id": "0f1072eab354494db613701f6b43e81f"
+    }
+  }
+}

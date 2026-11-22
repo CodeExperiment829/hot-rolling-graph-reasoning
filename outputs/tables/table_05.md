@@ -1,0 +1,7 @@
+Calibration conditions for the batch processing time model.
+
+| Parameter | Value | Role in the model |
+| --- | --- | --- |
+| Nominal 90% interval | 2.364 min on either side of the prediction | Rank 55 among 60 absolute calibration residuals |
+
+Computed calibration row. The other rows describe input settings.

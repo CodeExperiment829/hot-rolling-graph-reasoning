@@ -1,0 +1,165 @@
+{
+  "config": {
+    "epoch": "10:00",
+    "eventMinute": 7,
+    "massT": 162,
+    "strips": 6,
+    "gapSec": 24,
+    "widthM": 1.25,
+    "density": 7850,
+    "exitGaugeMm": 3,
+    "requestedSpeed": 10.5,
+    "entryMinute": 8,
+    "coolingRange": [
+      8,
+      11
+    ],
+    "coilTravelMin": 2,
+    "isolationMin": 3,
+    "restartMin": 2,
+    "deadline": 48,
+    "crewBlock": [
+      32,
+      36
+    ],
+    "jobs": [
+      {
+        "id": "F4",
+        "duration": 8
+      },
+      {
+        "id": "F6",
+        "duration": 6
+      }
+    ],
+    "roughExitMm": [
+      70,
+      30
+    ],
+    "portQualityMin": 0.9,
+    "coilers": [
+      {
+        "id": "DC1",
+        "booked": []
+      },
+      {
+        "id": "DC2",
+        "booked": [
+          [
+            18,
+            29
+          ]
+        ]
+      }
+    ]
+  },
+  "stands": [
+    {
+      "id": "F1",
+      "gaugeMm": 18,
+      "port": {
+        "id": "F1-CAP0",
+        "exitLimit": 11.4,
+        "quality": 0.97,
+        "validUntil": 40
+      }
+    },
+    {
+      "id": "F2",
+      "gaugeMm": 12,
+      "port": {
+        "id": "F2-CAP0",
+        "exitLimit": 11.2,
+        "quality": 0.96,
+        "validUntil": 40
+      }
+    },
+    {
+      "id": "F3",
+      "gaugeMm": 8,
+      "port": {
+        "id": "F3-CAP0",
+        "exitLimit": 11,
+        "quality": 0.97,
+        "validUntil": 40
+      }
+    },
+    {
+      "id": "F4",
+      "gaugeMm": 5.7
+    },
+    {
+      "id": "F5",
+      "gaugeMm": 4.3,
+      "port": {
+        "id": "F5-CAP0",
+        "exitLimit": 11.2,
+        "quality": 0.98,
+        "validUntil": 40
+      }
+    },
+    {
+      "id": "F6",
+      "gaugeMm": 3.5,
+      "port": {
+        "id": "F6-CAP0",
+        "exitLimit": 11.1,
+        "quality": 0.95,
+        "validUntil": 40
+      }
+    },
+    {
+      "id": "F7",
+      "gaugeMm": 3,
+      "port": {
+        "id": "F7-CAP0",
+        "exitLimit": 11.3,
+        "quality": 0.97,
+        "validUntil": 40
+      }
+    }
+  ],
+  "capacityUpdate": {
+    "stand": "F4",
+    "baseline": [
+      {
+        "id": "F4-CAP0",
+        "exitLimit": 10.8,
+        "quality": 0.96,
+        "validUntil": 35
+      },
+      {
+        "id": "F4-OLD",
+        "exitLimit": 11.3,
+        "quality": 0.98,
+        "validUntil": 12
+      },
+      {
+        "id": "F4-AUX",
+        "exitLimit": 11,
+        "quality": 0.82,
+        "validUntil": 40
+      }
+    ],
+    "revised": [
+      {
+        "id": "F4-CAP1",
+        "exitLimit": 8.4,
+        "quality": 0.95,
+        "validUntil": 35
+      },
+      {
+        "id": "F4-OLD",
+        "exitLimit": 11.3,
+        "quality": 0.98,
+        "validUntil": 12
+      },
+      {
+        "id": "F4-AUX",
+        "exitLimit": 11,
+        "quality": 0.82,
+        "validUntil": 40
+      }
+    ]
+  }
+}

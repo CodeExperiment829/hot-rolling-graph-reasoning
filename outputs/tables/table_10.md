@@ -1,0 +1,12 @@
+Table 10. Published benchmark results and third-party implementations used in the comparisons.
+
+| Comparison method | Evaluation basis | Evaluation in this run |
+| --- | --- | --- |
+| GTool | Published reference on ToolBench | 284 test requests reordered |
+| ToolTree | Published reference on GTA | Literature comparison |
+| ReSched | Released PPO policy on Mk01–Mk10 | Fresh greedy inference on CUDA. Mean makespan 185.6. Mean relative gap 10.07%. |
+| RACE-Sched | Published references on GEN-Bench and JMS-Bench | Literature comparison |
+| MOPN-KT | Published hot-rolling order planning study | Literature comparison |
+| SLR2 | Published study on held-out Mk6–Mk10 | Literature comparison |
+
+Literature-only scores are cited in the manuscript. ReSched and the retrieval rules have runnable evaluations.

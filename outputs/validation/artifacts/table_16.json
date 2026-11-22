@@ -1,0 +1,13 @@
+{
+  "artifact": "table_16",
+  "mode": "tables",
+  "run_id": "0f1072eab354494db613701f6b43e81f",
+  "rendered_file_sha256": {
+    "csv": "014bb437665ff2fd0f98a05497e1a16fc3434b7c4ee384d11e044b9455d017cc",
+    "md": "4a316e1af809b5731f70a7296ccfd729bf010c7175a3c7bdabc10c66ae20e833"
+  },
+  "rows": 5,
+  "columns": 4,
+  "caption": "Event log from the original reservations through final verification of the revised plan.",
+  "note": ""
+}

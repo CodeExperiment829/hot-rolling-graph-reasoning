@@ -1,0 +1,6 @@
+Event and stage,Basis for decision,Task action,Verification result
+"S01-pre, baseline","P1 quality 0.96, P3 quality 0.95",Bound the estimates to the two machines and checked 440 candidate reservation pairs,"RM-01 maintenance 10:36–10:45, RM-02 maintenance 10:49–10:57"
+"S01-E4, feedback received","RM-01 load 0.906±0.006, additional wait of 10 min, crew occupied 10:34–10:44",Retained the operating decision and updated the completion time from 10:34 to 10:47,Original RM-01 reservation invalid
+"S01-E4, first attempt","Hyperedges {RM-01} and {RM-01, RM-02}","Only the task with weight 2, RM-01, was opened. RM-02 remained scheduled to start at 10:49",RM-01 had no room in its window for 9 min of maintenance
+"S01-E4, second attempt","The conflict involved the shared crew, and RM-02 could still be rescheduled","Opened both reservations, scheduling RM-01 for 10:47–10:56 and RM-02 for 10:56–11:04","Both reservations passed final verification, with a total start time delay of 18 min"
+"S24-E4, all tasks open","The latest maintenance start times were 11:00 and 11:10, respectively",Enumerated the two allowable windows minute by minute,"No feasible pair was found, and no new reservations were recorded"

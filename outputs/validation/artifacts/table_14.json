@@ -1,0 +1,13 @@
+{
+  "artifact": "table_14",
+  "mode": "tables",
+  "run_id": "0f1072eab354494db613701f6b43e81f",
+  "rendered_file_sha256": {
+    "csv": "14e96781dd44ac298c78957eba0367dfd2629f761acb038e7ce79935b658e1c6",
+    "md": "5088c22759e69be982109569e7b0ca98967e17dcb58b5532c1b712bb8f4102d9"
+  },
+  "rows": 5,
+  "columns": 6,
+  "caption": "Effect of replanning neighborhood selection on conflict resolution.",
+  "note": ""
+}

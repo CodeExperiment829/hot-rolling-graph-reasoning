@@ -1,0 +1,5 @@
+Strategy,Plans passing whole-graph verification/events,Incorrect reuses/total reuses,Recomputation cost per case/units
+Full graph recomputation,109/120,Not applicable,22.00
+Recomputation of topological successors,109/120,0/360,8.30
+Reuse based solely on the validity period,65/120,69/468,2.73
+Proposed local replanning method,109/120,0/395,7.22

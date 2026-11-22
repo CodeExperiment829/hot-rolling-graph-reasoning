@@ -1,0 +1,19 @@
+# Public benchmark inputs
+
+| Inputs | Attribution and terms |
+| --- | --- |
+| Brandimarte, Fattahi and the instance index | The [SchedulingLab archive](https://github.com/SchedulingLab/fjsp-instances/tree/ac4c3402312bfbeafcf4472d78be567d4e6b46ab) provides the machine assignments, durations and feasible reference values. The two families retain their original text encoding. The index contains the corresponding records. See LICENSE-schedulinglab.txt. Original studies by [Brandimarte](https://doi.org/10.1007/BF02023073) and [Fattahi et al.](https://doi.org/10.1007/s10845-007-0026-8). |
+| ReSched input records | The ten one-based Brandimarte files come from the [authors' release](https://github.com/XiangjieXiao/ReSched/tree/4d1fda8ab4d78d1cd9664de28f3f77d88620f309). They are used for an operation-level cross-check. See benchmark_lib/LICENSE-resched.txt at the project root. |
+| TaskBench | Shen et al., [TaskBench multimedia](https://github.com/microsoft/JARVIS/tree/7624cf388b47334ff8a0868e7d862dde18cfda86/taskbench). The instruction, record ID, topology type, and reference node and link fields retain their values, types and order in all records. Unused metadata fields are omitted. The tool descriptions are unmodified. The TaskBench README identifies Apache 2.0. The containing JARVIS repository uses MIT. See both LICENSE-taskbench files. |
+| Cell tables | Deliktaş, Özcan, Üstun and Torkul. Tables 3–6 of the [benchmark article](https://doi.org/10.1016/j.dib.2023.109946) are provided as JSON arrays of cell text for instances 1–12. [Dataset](https://doi.org/10.17632/rtzby7pv7m.1), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). |
+| Coil transition costs | Nicolás Alvarez-Gil and coauthors. The numeric matrix for cgl_17 is transcribed from Figure 1 of the [data article](https://doi.org/10.1016/j.dib.2022.107844). [Dataset](https://doi.org/10.17632/v357z2ncbh.2), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). |
+
+## Optional resources for the complete comparison
+
+From the project directory, install PyTorch and run `python -m benchmark_resources` once with internet access. Then run `python Main.py --mode comparison`. The installer verifies the three upstream files before use. After installation the comparison runs offline.
+
+The installer retrieves the [ReSched](https://github.com/XiangjieXiao/ReSched/tree/4d1fda8ab4d78d1cd9664de28f3f77d88620f309) PPO model definition and official pretrained SD1-10x05 weights. Sequential greedy inference defaults to CUDA when available and otherwise uses one CPU thread. Use `--device cpu` to reproduce the original single-thread CPU protocol, or `--device cuda` to require CUDA. Device selection applies to the neural policy. The scheduling environment maintains NumPy arrays on the CPU. On each step the model inputs and attention operations use the selected device, then the chosen action returns to the CPU to advance the schedule. Timing excludes weight loading, disk reads and independent final verification. GPU timings synchronize the device at the measurement boundaries. The inference environment advances the schedule using the supplied job-shop instances.
+
+For the 597-request macro-average test, the installer extracts the multimedia instruction records from the [GTool conference supplement](https://proceedings.iclr.cc/paper_files/paper/2026/hash/715cf37ace0cb884530ab593eea6a50c-Abstract-Conference.html). The tool catalog matches the bundled TaskBench catalog. The two randomized partitions use seed 42. Lexical retrieval and port-type reordering are both evaluated on the common held-out records. The GTool model and literature-only methods in Table 10 are cited in the manuscript.
+
+In a fresh offline installation the ReSched columns and the GTool split evaluation report missing dependencies. The resource-calendar results, basic scheduling rules, full TaskBench retrieval, manufacturing-cell and coil-sequencing tests run from the bundled inputs.

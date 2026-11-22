@@ -1,0 +1,14 @@
+{
+  "mode": "ablation",
+  "run_id": "7ca0b857784a4c9b946adda51683f17d",
+  "completed_at": "2026-11-22T12:44:37+00:00",
+  "elapsed_seconds": 3.216,
+  "artifacts": [
+    "figure_06",
+    "figure_12",
+    "table_13",
+    "table_14",
+    "table_15"
+  ],
+  "limited_resources": []
+}

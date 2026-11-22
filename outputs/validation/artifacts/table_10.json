@@ -1,0 +1,13 @@
+{
+  "artifact": "table_10",
+  "mode": "tables",
+  "run_id": "0f1072eab354494db613701f6b43e81f",
+  "rendered_file_sha256": {
+    "csv": "ceccd3037d114bc6953adf067db1ee57c4669aa1abcb89473b690793f16689de",
+    "md": "2ad2e26216908894843b3c8cd1aad5b4d5031fecfe38ec802cbb9830e00b18cc"
+  },
+  "rows": 6,
+  "columns": 3,
+  "caption": "Table 10. Published benchmark results and third-party implementations used in the comparisons.",
+  "note": "Literature-only scores are cited in the manuscript. ReSched and the retrieval rules have runnable evaluations."
+}

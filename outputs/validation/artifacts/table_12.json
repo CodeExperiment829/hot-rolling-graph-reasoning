@@ -1,0 +1,13 @@
+{
+  "artifact": "table_12",
+  "mode": "tables",
+  "run_id": "0f1072eab354494db613701f6b43e81f",
+  "rendered_file_sha256": {
+    "csv": "a13a8183f1933514c2f908bc781a4dcd8aa62e8891936410ecd5dd922ba675b0",
+    "md": "9b3d9b927329f8923defa29a6913f7b127908c2aba418f0f4479ae1b3190588f"
+  },
+  "rows": 5,
+  "columns": 6,
+  "caption": "Paired results for execution strategies on the same hot rolling events.",
+  "note": ""
+}

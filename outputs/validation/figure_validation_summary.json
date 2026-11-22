@@ -1,0 +1,81 @@
+{
+  "status": "verified",
+  "check_scope": "Run association, file integrity and rendered structure. Paper agreement is assessed in the release report.",
+  "artifacts": {
+    "figure_05": {
+      "render": "verified",
+      "experiment": "full_line",
+      "panels": [
+        "c"
+      ],
+      "run_id": "1bed01c849a348febc769c2b4d6ac29a"
+    },
+    "figure_06": {
+      "render": "verified",
+      "experiment": "planning",
+      "panels": [
+        "a",
+        "b"
+      ],
+      "run_id": "1bed01c849a348febc769c2b4d6ac29a"
+    },
+    "figure_07": {
+      "render": "verified",
+      "experiment": "full_line",
+      "panels": [
+        "b",
+        "c"
+      ],
+      "run_id": "1bed01c849a348febc769c2b4d6ac29a"
+    },
+    "figure_08": {
+      "render": "verified",
+      "experiment": "calibration",
+      "panels": [
+        "a",
+        "b",
+        "c"
+      ],
+      "run_id": "1bed01c849a348febc769c2b4d6ac29a"
+    },
+    "figure_09": {
+      "render": "verified",
+      "experiment": "replanning",
+      "panels": [
+        "shared snapshot",
+        "local",
+        "full"
+      ],
+      "run_id": "1bed01c849a348febc769c2b4d6ac29a"
+    },
+    "figure_10": {
+      "render": "verified",
+      "experiment": "replanning",
+      "panels": [
+        "a",
+        "b",
+        "c"
+      ],
+      "run_id": "1bed01c849a348febc769c2b4d6ac29a"
+    },
+    "figure_11": {
+      "render": "verified",
+      "experiment": "replanning",
+      "panels": [
+        "a",
+        "b"
+      ],
+      "run_id": "1bed01c849a348febc769c2b4d6ac29a"
+    },
+    "figure_12": {
+      "render": "verified",
+      "experiment": "replanning",
+      "panels": [
+        "a",
+        "b",
+        "c"
+      ],
+      "run_id": "1bed01c849a348febc769c2b4d6ac29a"
+    }
+  }
+}

@@ -1,0 +1,9422 @@
+[
+  {
+    "id": "I01-ordinary",
+    "shift": 1,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 322.56000000000006,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 322.56000000000006,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 24
+  },
+  {
+    "id": "I01-input_perturbation",
+    "shift": 1,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.24,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 282.24,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 219.24,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      25,
+      33,
+      41,
+      49,
+      57,
+      65,
+      73
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 33
+  },
+  {
+    "id": "I01-resource_perturbation",
+    "shift": 1,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 241.02,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 219.95999999999998,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 241.02,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 241.02,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        24,
+        48
+      ]
+    ],
+    "due_min": 32
+  },
+  {
+    "id": "I01-blocked",
+    "shift": 1,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 302.40000000000003,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 253.79999999999998,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      20,
+      28,
+      36,
+      44,
+      52,
+      60,
+      68
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 28
+  },
+  {
+    "id": "I01-quality_pending",
+    "shift": 1,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 259.56,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 259.56,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 259.56,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      18,
+      26,
+      34,
+      42,
+      50,
+      58,
+      66
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 26
+  },
+  {
+    "id": "I02-ordinary",
+    "shift": 2,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 219.24,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 282.24,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        16,
+        22
+      ]
+    ],
+    "due_min": 24
+  },
+  {
+    "id": "I02-input_perturbation",
+    "shift": 2,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 302.40000000000003,
+        "id": "P1"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.9,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        24,
+        30
+      ]
+    ],
+    "due_min": 32
+  },
+  {
+    "id": "I02-resource_perturbation",
+    "shift": 2,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 241.02,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 241.02,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 203.58,
+        "id": "P4"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      20,
+      28,
+      36,
+      44,
+      52,
+      60,
+      68
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        20,
+        44
+      ]
+    ],
+    "due_min": 28
+  },
+  {
+    "id": "I02-blocked",
+    "shift": 2,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 219.95999999999998,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 241.02,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 203.58,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      27,
+      35,
+      43,
+      51,
+      59,
+      67,
+      75
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 35
+  },
+  {
+    "id": "I02-quality_pending",
+    "shift": 2,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 203.58,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.95999999999998,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.95999999999998,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      20,
+      28,
+      36,
+      44,
+      52,
+      60,
+      68
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        20,
+        26
+      ]
+    ],
+    "due_min": 28
+  },
+  {
+    "id": "I03-ordinary",
+    "shift": 3,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 278.1,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 302.40000000000003,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 32
+  },
+  {
+    "id": "I03-input_perturbation",
+    "shift": 3,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 270.71999999999997,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 24
+  },
+  {
+    "id": "I03-resource_perturbation",
+    "shift": 3,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 259.56,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 282.24,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.24,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 219.24,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      18,
+      26,
+      34,
+      42,
+      50,
+      58,
+      66
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        18,
+        42
+      ]
+    ],
+    "due_min": 26
+  },
+  {
+    "id": "I03-blocked",
+    "shift": 3,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.24,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 282.24,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 282.24,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 259.56,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 24
+  },
+  {
+    "id": "I03-quality_pending",
+    "shift": 3,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 234.9,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.9,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 32
+  },
+  {
+    "id": "I04-ordinary",
+    "shift": 4,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 203.58,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 203.58,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.95999999999998,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      20,
+      28,
+      36,
+      44,
+      52,
+      60,
+      68
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        20,
+        26
+      ]
+    ],
+    "due_min": 28
+  },
+  {
+    "id": "I04-input_perturbation",
+    "shift": 4,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 322.56000000000006,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 250.56,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      22,
+      30,
+      38,
+      46,
+      54,
+      62,
+      70
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        22,
+        28
+      ]
+    ],
+    "due_min": 30
+  },
+  {
+    "id": "I04-resource_perturbation",
+    "shift": 4,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 203.58,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 241.02,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 203.58,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        24,
+        48
+      ]
+    ],
+    "due_min": 32
+  },
+  {
+    "id": "I04-blocked",
+    "shift": 4,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 302.40000000000003,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      20,
+      28,
+      36,
+      44,
+      52,
+      60,
+      68
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 28
+  },
+  {
+    "id": "I04-quality_pending",
+    "shift": 4,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 250.56,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      19,
+      27,
+      35,
+      43,
+      51,
+      59,
+      67
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        19,
+        25
+      ]
+    ],
+    "due_min": 27
+  },
+  {
+    "id": "I05-ordinary",
+    "shift": 5,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P1"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.95999999999998,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 219.95999999999998,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      17,
+      25,
+      33,
+      41,
+      49,
+      57,
+      65
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 25
+  },
+  {
+    "id": "I05-input_perturbation",
+    "shift": 5,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 203.58,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 262.08000000000004,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 241.02,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 241.02,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      27,
+      35,
+      43,
+      51,
+      59,
+      67,
+      75
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 35
+  },
+  {
+    "id": "I05-resource_perturbation",
+    "shift": 5,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 259.56,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 219.24,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 282.24,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 282.24,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      22,
+      30,
+      38,
+      46,
+      54,
+      62,
+      70
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        22,
+        46
+      ]
+    ],
+    "due_min": 30
+  },
+  {
+    "id": "I05-blocked",
+    "shift": 5,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 282.24,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 282.24,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 236.88,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      22,
+      30,
+      38,
+      46,
+      54,
+      62,
+      70
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 30
+  },
+  {
+    "id": "I05-quality_pending",
+    "shift": 5,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 270.71999999999997,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      14,
+      22,
+      30,
+      38,
+      46,
+      54,
+      62
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 22
+  },
+  {
+    "id": "I06-ordinary",
+    "shift": 6,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P1"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 270.71999999999997,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      19,
+      27,
+      35,
+      43,
+      51,
+      59,
+      67
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        19,
+        25
+      ]
+    ],
+    "due_min": 27
+  },
+  {
+    "id": "I06-input_perturbation",
+    "shift": 6,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.9,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 278.1,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      20,
+      28,
+      36,
+      44,
+      52,
+      60,
+      68
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        20,
+        26
+      ]
+    ],
+    "due_min": 28
+  },
+  {
+    "id": "I06-resource_perturbation",
+    "shift": 6,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P1"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.24,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 259.56,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      22,
+      30,
+      38,
+      46,
+      54,
+      62,
+      70
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        22,
+        46
+      ]
+    ],
+    "due_min": 30
+  },
+  {
+    "id": "I06-blocked",
+    "shift": 6,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.24,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.24,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 282.24,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 236.88,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      18,
+      26,
+      34,
+      42,
+      50,
+      58,
+      66
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 26
+  },
+  {
+    "id": "I06-quality_pending",
+    "shift": 6,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 296.64,
+        "id": "P1"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 322.56000000000006,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 322.56000000000006,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 322.56000000000006,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      22,
+      30,
+      38,
+      46,
+      54,
+      62,
+      70
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        22,
+        28
+      ]
+    ],
+    "due_min": 30
+  },
+  {
+    "id": "I07-ordinary",
+    "shift": 7,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P1"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.24,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 219.24,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 282.24,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      18,
+      26,
+      34,
+      42,
+      50,
+      58,
+      66
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 26
+  },
+  {
+    "id": "I07-input_perturbation",
+    "shift": 7,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 302.40000000000003,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      20,
+      28,
+      36,
+      44,
+      52,
+      60,
+      68
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 28
+  },
+  {
+    "id": "I07-resource_perturbation",
+    "shift": 7,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.95999999999998,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 219.95999999999998,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 203.58,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      17,
+      25,
+      33,
+      41,
+      49,
+      57,
+      65
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        17,
+        41
+      ]
+    ],
+    "due_min": 25
+  },
+  {
+    "id": "I07-blocked",
+    "shift": 7,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 259.56,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 259.56,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 236.88,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      22,
+      30,
+      38,
+      46,
+      54,
+      62,
+      70
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 30
+  },
+  {
+    "id": "I07-quality_pending",
+    "shift": 7,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 282.24,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.24,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 282.24,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 236.88,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      22,
+      30,
+      38,
+      46,
+      54,
+      62,
+      70
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 30
+  },
+  {
+    "id": "I08-ordinary",
+    "shift": 8,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 262.08000000000004,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 219.95999999999998,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P4"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      17,
+      25,
+      33,
+      41,
+      49,
+      57,
+      65
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        17,
+        23
+      ]
+    ],
+    "due_min": 25
+  },
+  {
+    "id": "I08-input_perturbation",
+    "shift": 8,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 250.56,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 322.56000000000006,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      14,
+      22,
+      30,
+      38,
+      46,
+      54,
+      62
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        14,
+        20
+      ]
+    ],
+    "due_min": 22
+  },
+  {
+    "id": "I08-resource_perturbation",
+    "shift": 8,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 322.56000000000006,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 322.56000000000006,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      14,
+      22,
+      30,
+      38,
+      46,
+      54,
+      62
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        14,
+        38
+      ]
+    ],
+    "due_min": 22
+  },
+  {
+    "id": "I08-blocked",
+    "shift": 8,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 259.56,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.24,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      22,
+      30,
+      38,
+      46,
+      54,
+      62,
+      70
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 30
+  },
+  {
+    "id": "I08-quality_pending",
+    "shift": 8,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 259.56,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 282.24,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.24,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      25,
+      33,
+      41,
+      49,
+      57,
+      65,
+      73
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        25,
+        31
+      ]
+    ],
+    "due_min": 33
+  },
+  {
+    "id": "I09-ordinary",
+    "shift": 9,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 296.64,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P4"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 24
+  },
+  {
+    "id": "I09-input_perturbation",
+    "shift": 9,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 270.71999999999997,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 322.56000000000006,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 24
+  },
+  {
+    "id": "I09-resource_perturbation",
+    "shift": 9,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 282.24,
+        "id": "P1"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 236.88,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      22,
+      30,
+      38,
+      46,
+      54,
+      62,
+      70
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        22,
+        46
+      ]
+    ],
+    "due_min": 30
+  },
+  {
+    "id": "I09-blocked",
+    "shift": 9,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 282.24,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 259.56,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 259.56,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      22,
+      30,
+      38,
+      46,
+      54,
+      62,
+      70
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 30
+  },
+  {
+    "id": "I09-quality_pending",
+    "shift": 9,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P1"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 278.1,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      15,
+      23,
+      31,
+      39,
+      47,
+      55,
+      63
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 23
+  },
+  {
+    "id": "I10-ordinary",
+    "shift": 10,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P1"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 282.24,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 282.24,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 282.24,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 282.24,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        16,
+        22
+      ]
+    ],
+    "due_min": 24
+  },
+  {
+    "id": "I10-input_perturbation",
+    "shift": 10,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 282.24,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 236.88,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.24,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      18,
+      26,
+      34,
+      42,
+      50,
+      58,
+      66
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        18,
+        24
+      ]
+    ],
+    "due_min": 26
+  },
+  {
+    "id": "I10-resource_perturbation",
+    "shift": 10,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 296.64,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 322.56000000000006,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P4"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      22,
+      30,
+      38,
+      46,
+      54,
+      62,
+      70
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        22,
+        46
+      ]
+    ],
+    "due_min": 30
+  },
+  {
+    "id": "I10-blocked",
+    "shift": 10,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 302.40000000000003,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 32
+  },
+  {
+    "id": "I10-quality_pending",
+    "shift": 10,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 259.56,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 282.24,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P4"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      25,
+      33,
+      41,
+      49,
+      57,
+      65,
+      73
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        25,
+        31
+      ]
+    ],
+    "due_min": 33
+  },
+  {
+    "id": "I11-ordinary",
+    "shift": 11,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 322.56000000000006,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 270.71999999999997,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 322.56000000000006,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      19,
+      27,
+      35,
+      43,
+      51,
+      59,
+      67
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 27
+  },
+  {
+    "id": "I11-input_perturbation",
+    "shift": 11,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 278.1,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 234.9,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      15,
+      23,
+      31,
+      39,
+      47,
+      55,
+      63
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 23
+  },
+  {
+    "id": "I11-resource_perturbation",
+    "shift": 11,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 296.64,
+        "id": "P1"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        16,
+        40
+      ]
+    ],
+    "due_min": 24
+  },
+  {
+    "id": "I11-blocked",
+    "shift": 11,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 278.1,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 234.9,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      17,
+      25,
+      33,
+      41,
+      49,
+      57,
+      65
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 25
+  },
+  {
+    "id": "I11-quality_pending",
+    "shift": 11,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 250.56,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 322.56000000000006,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      22,
+      30,
+      38,
+      46,
+      54,
+      62,
+      70
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 30
+  },
+  {
+    "id": "I12-ordinary",
+    "shift": 12,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 250.56,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      22,
+      30,
+      38,
+      46,
+      54,
+      62,
+      70
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        22,
+        28
+      ]
+    ],
+    "due_min": 30
+  },
+  {
+    "id": "I12-input_perturbation",
+    "shift": 12,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 234.9,
+        "id": "P1"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 234.9,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.9,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      20,
+      28,
+      36,
+      44,
+      52,
+      60,
+      68
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        20,
+        26
+      ]
+    ],
+    "due_min": 28
+  },
+  {
+    "id": "I12-resource_perturbation",
+    "shift": 12,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 322.56000000000006,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 270.71999999999997,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P4"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      22,
+      30,
+      38,
+      46,
+      54,
+      62,
+      70
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        22,
+        46
+      ]
+    ],
+    "due_min": 30
+  },
+  {
+    "id": "I12-blocked",
+    "shift": 12,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.9,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 253.79999999999998,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 302.40000000000003,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 234.9,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      17,
+      25,
+      33,
+      41,
+      49,
+      57,
+      65
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 25
+  },
+  {
+    "id": "I12-quality_pending",
+    "shift": 12,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 302.40000000000003,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 278.1,
+        "id": "P4"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        24,
+        30
+      ]
+    ],
+    "due_min": 32
+  },
+  {
+    "id": "I13-ordinary",
+    "shift": 13,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 253.79999999999998,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 302.40000000000003,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 302.40000000000003,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 302.40000000000003,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      17,
+      25,
+      33,
+      41,
+      49,
+      57,
+      65
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 25
+  },
+  {
+    "id": "I13-input_perturbation",
+    "shift": 13,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 219.24,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 219.24,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      25,
+      33,
+      41,
+      49,
+      57,
+      65,
+      73
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 33
+  },
+  {
+    "id": "I13-resource_perturbation",
+    "shift": 13,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.9,
+        "id": "P1"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 302.40000000000003,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 302.40000000000003,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      17,
+      25,
+      33,
+      41,
+      49,
+      57,
+      65
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        17,
+        41
+      ]
+    ],
+    "due_min": 25
+  },
+  {
+    "id": "I13-blocked",
+    "shift": 13,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 302.40000000000003,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 302.40000000000003,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.9,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      15,
+      23,
+      31,
+      39,
+      47,
+      55,
+      63
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 23
+  },
+  {
+    "id": "I13-quality_pending",
+    "shift": 13,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 282.24,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 219.24,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.24,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 219.24,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      22,
+      30,
+      38,
+      46,
+      54,
+      62,
+      70
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 30
+  },
+  {
+    "id": "I14-ordinary",
+    "shift": 14,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 296.64,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P4"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        16,
+        22
+      ]
+    ],
+    "due_min": 24
+  },
+  {
+    "id": "I14-input_perturbation",
+    "shift": 14,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 322.56000000000006,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 270.71999999999997,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      14,
+      22,
+      30,
+      38,
+      46,
+      54,
+      62
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        14,
+        20
+      ]
+    ],
+    "due_min": 22
+  },
+  {
+    "id": "I14-resource_perturbation",
+    "shift": 14,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 302.40000000000003,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      20,
+      28,
+      36,
+      44,
+      52,
+      60,
+      68
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        20,
+        44
+      ]
+    ],
+    "due_min": 28
+  },
+  {
+    "id": "I14-blocked",
+    "shift": 14,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 234.9,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.9,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      15,
+      23,
+      31,
+      39,
+      47,
+      55,
+      63
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 23
+  },
+  {
+    "id": "I14-quality_pending",
+    "shift": 14,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 253.79999999999998,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 302.40000000000003,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      20,
+      28,
+      36,
+      44,
+      52,
+      60,
+      68
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        20,
+        26
+      ]
+    ],
+    "due_min": 28
+  },
+  {
+    "id": "I15-ordinary",
+    "shift": 15,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 259.56,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.24,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P4"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      22,
+      30,
+      38,
+      46,
+      54,
+      62,
+      70
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 30
+  },
+  {
+    "id": "I15-input_perturbation",
+    "shift": 15,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 219.95999999999998,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 203.58,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 241.02,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      27,
+      35,
+      43,
+      51,
+      59,
+      67,
+      75
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 35
+  },
+  {
+    "id": "I15-resource_perturbation",
+    "shift": 15,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 234.9,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 278.1,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P4"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        24,
+        48
+      ]
+    ],
+    "due_min": 32
+  },
+  {
+    "id": "I15-blocked",
+    "shift": 15,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 278.1,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      15,
+      23,
+      31,
+      39,
+      47,
+      55,
+      63
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 23
+  },
+  {
+    "id": "I15-quality_pending",
+    "shift": 15,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 270.71999999999997,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 322.56000000000006,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 24
+  },
+  {
+    "id": "I16-ordinary",
+    "shift": 16,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 203.58,
+        "id": "P1"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.95999999999998,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 203.58,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      27,
+      35,
+      43,
+      51,
+      59,
+      67,
+      75
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        27,
+        33
+      ]
+    ],
+    "due_min": 35
+  },
+  {
+    "id": "I16-input_perturbation",
+    "shift": 16,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 219.24,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 259.56,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      25,
+      33,
+      41,
+      49,
+      57,
+      65,
+      73
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        25,
+        31
+      ]
+    ],
+    "due_min": 33
+  },
+  {
+    "id": "I16-resource_perturbation",
+    "shift": 16,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 253.79999999999998,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 302.40000000000003,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 302.40000000000003,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 302.40000000000003,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      20,
+      28,
+      36,
+      44,
+      52,
+      60,
+      68
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        20,
+        44
+      ]
+    ],
+    "due_min": 28
+  },
+  {
+    "id": "I16-blocked",
+    "shift": 16,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 282.24,
+        "id": "P1"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 259.56,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 259.56,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      25,
+      33,
+      41,
+      49,
+      57,
+      65,
+      73
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 33
+  },
+  {
+    "id": "I16-quality_pending",
+    "shift": 16,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 219.95999999999998,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.95999999999998,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 219.95999999999998,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      20,
+      28,
+      36,
+      44,
+      52,
+      60,
+      68
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        20,
+        26
+      ]
+    ],
+    "due_min": 28
+  },
+  {
+    "id": "I17-ordinary",
+    "shift": 17,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P1"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 250.56,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      22,
+      30,
+      38,
+      46,
+      54,
+      62,
+      70
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 30
+  },
+  {
+    "id": "I17-input_perturbation",
+    "shift": 17,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 203.58,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 203.58,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 203.58,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 32
+  },
+  {
+    "id": "I17-resource_perturbation",
+    "shift": 17,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P1"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 250.56,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      14,
+      22,
+      30,
+      38,
+      46,
+      54,
+      62
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        14,
+        38
+      ]
+    ],
+    "due_min": 22
+  },
+  {
+    "id": "I17-blocked",
+    "shift": 17,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 282.24,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 259.56,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 259.56,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      22,
+      30,
+      38,
+      46,
+      54,
+      62,
+      70
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 30
+  },
+  {
+    "id": "I17-quality_pending",
+    "shift": 17,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 259.56,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 219.24,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 259.56,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      22,
+      30,
+      38,
+      46,
+      54,
+      62,
+      70
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 30
+  },
+  {
+    "id": "I18-ordinary",
+    "shift": 18,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 203.58,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 241.02,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        24,
+        30
+      ]
+    ],
+    "due_min": 32
+  },
+  {
+    "id": "I18-input_perturbation",
+    "shift": 18,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 322.56000000000006,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 250.56,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 322.56000000000006,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      14,
+      22,
+      30,
+      38,
+      46,
+      54,
+      62
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        14,
+        20
+      ]
+    ],
+    "due_min": 22
+  },
+  {
+    "id": "I18-resource_perturbation",
+    "shift": 18,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 322.56000000000006,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 296.64,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        16,
+        40
+      ]
+    ],
+    "due_min": 24
+  },
+  {
+    "id": "I18-blocked",
+    "shift": 18,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 253.79999999999998,
+        "id": "P4"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.9,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 32
+  },
+  {
+    "id": "I18-quality_pending",
+    "shift": 18,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 296.64,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 322.56000000000006,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      19,
+      27,
+      35,
+      43,
+      51,
+      59,
+      67
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        19,
+        25
+      ]
+    ],
+    "due_min": 27
+  },
+  {
+    "id": "I19-ordinary",
+    "shift": 19,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 322.56000000000006,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 250.56,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      22,
+      30,
+      38,
+      46,
+      54,
+      62,
+      70
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 30
+  },
+  {
+    "id": "I19-input_perturbation",
+    "shift": 19,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 241.02,
+        "id": "P1"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 203.58,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 219.95999999999998,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 32
+  },
+  {
+    "id": "I19-resource_perturbation",
+    "shift": 19,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 296.64,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        16,
+        40
+      ]
+    ],
+    "due_min": 24
+  },
+  {
+    "id": "I19-blocked",
+    "shift": 19,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 262.08000000000004,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 241.02,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      20,
+      28,
+      36,
+      44,
+      52,
+      60,
+      68
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 28
+  },
+  {
+    "id": "I19-quality_pending",
+    "shift": 19,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 302.40000000000003,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.9,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 302.40000000000003,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 32
+  },
+  {
+    "id": "I20-ordinary",
+    "shift": 20,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.9,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 234.9,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      17,
+      25,
+      33,
+      41,
+      49,
+      57,
+      65
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        17,
+        23
+      ]
+    ],
+    "due_min": 25
+  },
+  {
+    "id": "I20-input_perturbation",
+    "shift": 20,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 278.1,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      20,
+      28,
+      36,
+      44,
+      52,
+      60,
+      68
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        20,
+        26
+      ]
+    ],
+    "due_min": 28
+  },
+  {
+    "id": "I20-resource_perturbation",
+    "shift": 20,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 259.56,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 219.24,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 259.56,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 259.56,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        16,
+        40
+      ]
+    ],
+    "due_min": 24
+  },
+  {
+    "id": "I20-blocked",
+    "shift": 20,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 278.1,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 302.40000000000003,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      17,
+      25,
+      33,
+      41,
+      49,
+      57,
+      65
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 25
+  },
+  {
+    "id": "I20-quality_pending",
+    "shift": 20,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 302.40000000000003,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 234.9,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 302.40000000000003,
+        "id": "P4"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      20,
+      28,
+      36,
+      44,
+      52,
+      60,
+      68
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        20,
+        26
+      ]
+    ],
+    "due_min": 28
+  },
+  {
+    "id": "I21-ordinary",
+    "shift": 21,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 241.02,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 241.02,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 241.02,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P4"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      17,
+      25,
+      33,
+      41,
+      49,
+      57,
+      65
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 25
+  },
+  {
+    "id": "I21-input_perturbation",
+    "shift": 21,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 262.08000000000004,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.95999999999998,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 32
+  },
+  {
+    "id": "I21-resource_perturbation",
+    "shift": 21,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 262.08000000000004,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 241.02,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 203.58,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 241.02,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      17,
+      25,
+      33,
+      41,
+      49,
+      57,
+      65
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        17,
+        41
+      ]
+    ],
+    "due_min": 25
+  },
+  {
+    "id": "I21-blocked",
+    "shift": 21,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 250.56,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      19,
+      27,
+      35,
+      43,
+      51,
+      59,
+      67
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 27
+  },
+  {
+    "id": "I21-quality_pending",
+    "shift": 21,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 296.64,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P4"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 24
+  },
+  {
+    "id": "I22-ordinary",
+    "shift": 22,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.9,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 234.9,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 253.79999999999998,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      20,
+      28,
+      36,
+      44,
+      52,
+      60,
+      68
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        20,
+        26
+      ]
+    ],
+    "due_min": 28
+  },
+  {
+    "id": "I22-input_perturbation",
+    "shift": 22,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 105,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 282.24,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 219.24,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      25,
+      33,
+      41,
+      49,
+      57,
+      65,
+      73
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        25,
+        31
+      ]
+    ],
+    "due_min": 33
+  },
+  {
+    "id": "I22-resource_perturbation",
+    "shift": 22,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 262.08000000000004,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.95999999999998,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 241.02,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 203.58,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      20,
+      28,
+      36,
+      44,
+      52,
+      60,
+      68
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        20,
+        44
+      ]
+    ],
+    "due_min": 28
+  },
+  {
+    "id": "I22-blocked",
+    "shift": 22,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 241.02,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      17,
+      25,
+      33,
+      41,
+      49,
+      57,
+      65
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 25
+  },
+  {
+    "id": "I22-quality_pending",
+    "shift": 22,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 270.71999999999997,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P4"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 296.64,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        16,
+        22
+      ]
+    ],
+    "due_min": 24
+  },
+  {
+    "id": "I23-ordinary",
+    "shift": 23,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.95999999999998,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 203.58,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 262.08000000000004,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      17,
+      25,
+      33,
+      41,
+      49,
+      57,
+      65
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 25
+  },
+  {
+    "id": "I23-input_perturbation",
+    "shift": 23,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.84,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 259.56,
+        "id": "P1"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 282.24,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 219.24,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 236.88,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 252.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      22,
+      30,
+      38,
+      46,
+      54,
+      62,
+      70
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 30
+  },
+  {
+    "id": "I23-resource_perturbation",
+    "shift": 23,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 75,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 302.40000000000003,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 278.1,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      17,
+      25,
+      33,
+      41,
+      49,
+      57,
+      65
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        17,
+        41
+      ]
+    ],
+    "due_min": 25
+  },
+  {
+    "id": "I23-blocked",
+    "shift": 23,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P2"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 322.56000000000006,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 250.56,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      19,
+      27,
+      35,
+      43,
+      51,
+      59,
+      67
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 27
+  },
+  {
+    "id": "I23-quality_pending",
+    "shift": 23,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 234.9,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      15,
+      23,
+      31,
+      39,
+      47,
+      55,
+      63
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [],
+    "due_min": 23
+  },
+  {
+    "id": "I24-ordinary",
+    "shift": 24,
+    "setting": "ordinary",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 9,
+        "rate": 234.9,
+        "id": "P1"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.9,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 234.9,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 253.79999999999998,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      15,
+      23,
+      31,
+      39,
+      47,
+      55,
+      63
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        15,
+        21
+      ]
+    ],
+    "due_min": 23
+  },
+  {
+    "id": "I24-input_perturbation",
+    "shift": 24,
+    "setting": "input_perturbation",
+    "object": "RM-01",
+    "tons": 90,
+    "load": 0.96,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 250.56,
+        "id": "P1"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 322.56000000000006,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 270.71999999999997,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 296.64,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 288.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      19,
+      27,
+      35,
+      43,
+      51,
+      59,
+      67
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        19,
+        25
+      ]
+    ],
+    "due_min": 27
+  },
+  {
+    "id": "I24-resource_perturbation",
+    "shift": 24,
+    "setting": "resource_perturbation",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.9,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 270.0,
+        "id": "P1"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 278.1,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 302.40000000000003,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 302.40000000000003,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      15,
+      23,
+      31,
+      39,
+      47,
+      55,
+      63
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        14
+      ]
+    ],
+    "crew_locked": [
+      [
+        15,
+        39
+      ]
+    ],
+    "due_min": 23
+  },
+  {
+    "id": "I24-blocked",
+    "shift": 24,
+    "setting": "blocked",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 3,
+        "rate": 241.02,
+        "id": "P1"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 203.58,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P3"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 203.58,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 241.02,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      17,
+      25,
+      33,
+      41,
+      49,
+      57,
+      65
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [
+      [
+        0,
+        130
+      ]
+    ],
+    "crew_locked": [],
+    "due_min": 25
+  },
+  {
+    "id": "I24-quality_pending",
+    "shift": 24,
+    "setting": "quality_pending",
+    "object": "RM-01",
+    "tons": 65,
+    "load": 0.78,
+    "sources": [
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 6,
+        "rate": 262.08000000000004,
+        "id": "P1"
+      },
+      {
+        "object": "RM-02",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 262.08000000000004,
+        "id": "P2"
+      },
+      {
+        "object": "RM-01",
+        "lo": 1.02,
+        "hi": 1.08,
+        "quality": 0.95,
+        "valid_until": 150,
+        "rate": 203.58,
+        "id": "P3"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": 0.62,
+        "valid_until": 150,
+        "rate": 203.58,
+        "id": "P4"
+      },
+      {
+        "object": "RM-01",
+        "lo": 0.72,
+        "hi": 1.0,
+        "quality": null,
+        "valid_until": 150,
+        "rate": 234.0,
+        "id": "P5"
+      }
+    ],
+    "roll_starts": [
+      0,
+      8,
+      16,
+      24
+    ],
+    "maintain_starts": [
+      17,
+      25,
+      33,
+      41,
+      49,
+      57,
+      65
+    ],
+    "maintenance_duration": 10,
+    "machine_locked": [],
+    "crew_locked": [
+      [
+        17,
+        23
+      ]
+    ],
+    "due_min": 25
+  }
+]

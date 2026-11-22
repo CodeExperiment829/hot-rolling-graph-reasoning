@@ -1,0 +1,13 @@
+{
+  "artifact": "table_11",
+  "mode": "tables",
+  "run_id": "0f1072eab354494db613701f6b43e81f",
+  "rendered_file_sha256": {
+    "csv": "86aa678465215a5a9a77e74ca3db9c01597a842e533fd9f679724552323952f8",
+    "md": "ff73daf3ebaec10c6f898de24b38fa8e97558cc61a9ff5ebb5f6669ddee34537"
+  },
+  "rows": 12,
+  "columns": 4,
+  "caption": "Table 11. Results of the initial scheduling module on public instances.",
+  "note": "Fresh greedy inference on CUDA"
+}

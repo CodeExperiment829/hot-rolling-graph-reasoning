@@ -1,0 +1,8 @@
+{
+  "capacity": 2,
+  "operations": [
+    {"start": 20, "end": 25, "weight": 3},
+    {"start": 21, "end": 26, "weight": 2},
+    {"start": 22, "end": 27, "weight": 1}
+  ]
+}

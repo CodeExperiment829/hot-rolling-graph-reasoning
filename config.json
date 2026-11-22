@@ -1,0 +1,24 @@
+{
+  "graphics": {
+    "dpi": 360,
+    "fonts": ["Times New Roman", "Liberation Serif", "DejaVu Serif"]
+  },
+  "calibration": {
+    "capacity_tph": 300,
+    "levels": [
+      0.5,
+      0.7,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "buffers_min": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "bootstrap_samples": 10000,
+    "bootstrap_seed": 20261118
+  }
+}

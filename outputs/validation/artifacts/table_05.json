@@ -1,0 +1,13 @@
+{
+  "artifact": "table_05",
+  "mode": "tables",
+  "run_id": "0f1072eab354494db613701f6b43e81f",
+  "rendered_file_sha256": {
+    "csv": "484f9166d88d56da5e041616b556ed93e736017a8bd956235c68e031ccd428d2",
+    "md": "93890e2a5e7986e7fd6363ab9b686f36c48c7cf9a818c422237435922c1d20f4"
+  },
+  "rows": 1,
+  "columns": 3,
+  "caption": "Calibration conditions for the batch processing time model.",
+  "note": "Computed calibration row. The other rows describe input settings."
+}

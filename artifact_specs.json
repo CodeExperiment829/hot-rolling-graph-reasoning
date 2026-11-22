@@ -1,0 +1,128 @@
+{
+  "figures": {
+    "figure_05": {
+      "experiment": "full_line",
+      "panels": [
+        "c"
+      ],
+      "role": "Paired maintenance schedules and restart times"
+    },
+    "figure_06": {
+      "experiment": "planning",
+      "panels": [
+        "a",
+        "b"
+      ],
+      "role": "Feasibility by search budget and node expansions within the fixed budget"
+    },
+    "figure_07": {
+      "experiment": "full_line",
+      "panels": [
+        "b",
+        "c"
+      ],
+      "role": "Timing update, shared crew overlap and conflict-free restart"
+    },
+    "figure_08": {
+      "experiment": "calibration",
+      "panels": [
+        "a",
+        "b",
+        "c"
+      ],
+      "role": "Held-out durations, errors and split-calibrated interval coverage"
+    },
+    "figure_09": {
+      "experiment": "replanning",
+      "panels": [
+        "shared snapshot",
+        "local",
+        "full"
+      ],
+      "role": "Shared snapshot with two paired strategy traces"
+    },
+    "figure_10": {
+      "experiment": "replanning",
+      "panels": [
+        "a",
+        "b",
+        "c"
+      ],
+      "role": "Use-specific reuse and shared-event example"
+    },
+    "figure_11": {
+      "experiment": "replanning",
+      "panels": [
+        "a",
+        "b"
+      ],
+      "role": "Grouped cost and measured P95 solving time"
+    },
+    "figure_12": {
+      "experiment": "replanning",
+      "panels": [
+        "a",
+        "b",
+        "c"
+      ],
+      "role": "Tolerance sensitivity"
+    }
+  },
+  "tables": {
+    "table_02a": {
+      "experiment": "planning",
+      "rows": 3,
+      "columns": 3
+    },
+    "table_02b": {
+      "experiment": "benchmarks",
+      "rows": 2,
+      "columns": 3
+    },
+    "table_03": {
+      "experiment": "replanning",
+      "rows": 4,
+      "columns": 4
+    },
+    "table_05": {
+      "experiment": "calibration",
+      "rows": 1,
+      "columns": 3
+    },
+    "table_10": {
+      "experiment": "benchmarks",
+      "rows": 6,
+      "columns": 3
+    },
+    "table_11": {
+      "experiment": "benchmarks",
+      "rows": 12,
+      "columns": 4
+    },
+    "table_12": {
+      "experiment": "replanning",
+      "rows": 5,
+      "columns": 6
+    },
+    "table_13": {
+      "experiment": "planning",
+      "rows": 4,
+      "columns": 6
+    },
+    "table_14": {
+      "experiment": "replanning",
+      "rows": 5,
+      "columns": 6
+    },
+    "table_15": {
+      "experiment": "conflicts",
+      "rows": 3,
+      "columns": 6
+    },
+    "table_16": {
+      "experiment": "replanning",
+      "rows": 5,
+      "columns": 4
+    }
+  }
+}

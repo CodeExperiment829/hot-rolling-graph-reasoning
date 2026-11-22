@@ -1,0 +1,13 @@
+{
+  "artifact": "table_13",
+  "mode": "tables",
+  "run_id": "0f1072eab354494db613701f6b43e81f",
+  "rendered_file_sha256": {
+    "csv": "58bfa17e839259d69dd831cf2fda8c6e0ac72756db0d7e335cce799516f771ab",
+    "md": "421f7e89bf2a17bb49dc813e23c4f556047e0a86c96ba0c6be7bf81be67bcb0e"
+  },
+  "rows": 4,
+  "columns": 6,
+  "caption": "Task graph generation ablation results with the same candidate set.",
+  "note": "Solved counts use 72 known feasible cases. Invalid combinations cover all 120 cases. Median search time per case in table order (ms): 0.0861, 0.0777, 0.0770, 0.0222."
+}

@@ -1,0 +1,20 @@
+{
+  "mode": "tables",
+  "run_id": "0f1072eab354494db613701f6b43e81f",
+  "completed_at": "2026-11-22T12:45:05+00:00",
+  "elapsed_seconds": 20.294,
+  "artifacts": [
+    "table_02a",
+    "table_02b",
+    "table_03",
+    "table_05",
+    "table_10",
+    "table_11",
+    "table_12",
+    "table_13",
+    "table_14",
+    "table_15",
+    "table_16"
+  ],
+  "limited_resources": []
+}

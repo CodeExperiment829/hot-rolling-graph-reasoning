@@ -1,0 +1,13 @@
+{
+  "artifact": "table_02a",
+  "mode": "tables",
+  "run_id": "0f1072eab354494db613701f6b43e81f",
+  "rendered_file_sha256": {
+    "csv": "1d4b0a2bf967789a6564bbd9404409c7c71d93431ec1273770e1ce735bdba570",
+    "md": "7b3e0d83d374a6bafd450485c9713fca44b514af27f39a3e2807279f54b0170a"
+  },
+  "rows": 3,
+  "columns": 3,
+  "caption": "Feasibility of initial production plans within the search budget.",
+  "note": ""
+}

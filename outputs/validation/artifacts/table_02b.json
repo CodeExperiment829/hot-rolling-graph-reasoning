@@ -1,0 +1,13 @@
+{
+  "artifact": "table_02b",
+  "mode": "tables",
+  "run_id": "0f1072eab354494db613701f6b43e81f",
+  "rendered_file_sha256": {
+    "csv": "cff58b02060d3ebf9b2035944eea0cbbad2da31faaa61ef714f9e00ad9790dcf",
+    "md": "4dd45035ae44c7d716067266aecd2decac3ff83b204605a2bd630f180944ca7f"
+  },
+  "rows": 2,
+  "columns": 3,
+  "caption": "Table 2B. Feasibility of initial production plans within the search budget.",
+  "note": "Fresh greedy inference on CUDA"
+}

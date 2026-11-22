@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1006.4pt" height="634.4pt" viewBox="0 0 1006.4 634.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 634.4 
+L 1006.4 634.4 
+L 1006.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 21.46 16.5 
+L 500.1 16.5 
+Q 505.68 16.5 505.68 22.08 
+L 505.68 613.56 
+Q 505.68 619.14 500.1 619.14 
+L 21.46 619.14 
+Q 15.88 619.14 15.88 613.56 
+L 15.88 22.08 
+Q 15.88 16.5 21.46 16.5 
+z
+" style="fill: #ffffff; stroke: #17395e; stroke-width: 1.178; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 518.7 16.5 
+L 984.94 16.5 
+Q 990.52 16.5 990.52 22.08 
+L 990.52 613.56 
+Q 990.52 619.14 984.94 619.14 
+L 518.7 619.14 
+Q 513.12 619.14 513.12 613.56 
+L 513.12 22.08 
+Q 513.12 16.5 518.7 16.5 
+z
+" style="fill: #ffffff; stroke: #17395e; stroke-width: 1.178; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 13.64px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; fill: #182733" transform="translate(158.781572 50.802971)">(a) Replanning Cost vs. Production</text>
+    <text style="font-weight: 700; font-size: 13.64px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; fill: #182733" transform="translate(197.691803 62.899136)">Disturbance Intensity</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 13.64px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; fill: #182733" transform="translate(672.48635 50.802971)">(b) P95 Time Spent Solving</text>
+    <text style="font-weight: 700; font-size: 13.64px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; fill: #182733" transform="translate(711.457322 62.899136)">and Checking</text>
+   </g>
+   <g id="line2d_1">
+    <path d="M 89.66 116.32 
+L 89.66 393.46 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 1.116"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 85.32 393.46 
+L 89.66 393.46 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="65.17" y="396.141016" transform="rotate(-0 65.17 396.141016)">0</text>
+   </g>
+   <g id="line2d_3">
+    <path d="M 85.32 347.27 
+L 89.66 347.27 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="65.17" y="349.951016" transform="rotate(-0 65.17 349.951016)">4</text>
+   </g>
+   <g id="line2d_4">
+    <path d="M 85.32 301.08 
+L 89.66 301.08 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="65.17" y="303.761016" transform="rotate(-0 65.17 303.761016)">8</text>
+   </g>
+   <g id="line2d_5">
+    <path d="M 85.32 254.89 
+L 89.66 254.89 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="65.17" y="257.571016" transform="rotate(-0 65.17 257.571016)">12</text>
+   </g>
+   <g id="line2d_6">
+    <path d="M 85.32 208.7 
+L 89.66 208.7 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="65.17" y="211.381016" transform="rotate(-0 65.17 211.381016)">16</text>
+   </g>
+   <g id="line2d_7">
+    <path d="M 85.32 162.51 
+L 89.66 162.51 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="65.17" y="165.191016" transform="rotate(-0 65.17 165.191016)">20</text>
+   </g>
+   <g id="line2d_8">
+    <path d="M 85.32 116.32 
+L 89.66 116.32 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="65.17" y="119.001016" transform="rotate(-0 65.17 119.001016)">24</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 11.78px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; fill: #182733" transform="translate(41.638917 311.170791) rotate(-90)">Replanning Cost (units)</text>
+   </g>
+   <g id="line2d_9">
+    <path d="M 89.66 393.46 
+L 490.18 393.46 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 1.116"/>
+   </g>
+   <g id="line2d_10">
+    <path d="M 139.725 393.46 
+L 139.725 397.8 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="139.725" y="410.091016" transform="rotate(-0 139.725 410.091016)">Zero</text>
+   </g>
+   <g id="line2d_11">
+    <path d="M 239.855 393.46 
+L 239.855 397.8 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="239.855" y="410.091016" transform="rotate(-0 239.855 410.091016)">(0, 0.10]</text>
+   </g>
+   <g id="line2d_12">
+    <path d="M 339.985 393.46 
+L 339.985 397.8 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="339.985" y="410.091016" transform="rotate(-0 339.985 410.091016)">(0.10, 0.25]</text>
+   </g>
+   <g id="line2d_13">
+    <path d="M 440.115 393.46 
+L 440.115 397.8 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="440.115" y="410.091016" transform="rotate(-0 440.115 410.091016)">&gt;0.25</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 11.78px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="289.92" y="429.758917" transform="rotate(-0 289.92 429.758917)">Production Disturbance Intensity</text>
+   </g>
+   <g id="line2d_14">
+    <path d="M 90.28 139.415 
+L 490.18 139.415 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke-dasharray: 4.588,1.984; stroke-dashoffset: 0; stroke: #d64b51; stroke-width: 1.24"/>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 12.4px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="289.92" y="125.539594" transform="rotate(-0 289.92 125.539594)">Full-graph recomputation = 22 units</text>
+   </g>
+   <g id="line2d_15">
+    <path d="M 105.005 393.46 
+L 174.445 393.46 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #639edd; stroke-width: 1.054"/>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 12.4px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="139.725" y="384.459344" transform="rotate(-0 139.725 384.459344)">0</text>
+   </g>
+   <g id="patch_4">
+    <path d="M 205.135 331.5654 
+L 274.575 331.5654 
+L 274.575 393.46 
+L 205.135 393.46 
+z
+" style="fill: #2978bd"/>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 12.4px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="239.855" y="322.564744" transform="rotate(-0 239.855 322.564744)">5.36</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 305.265 289.76345 
+L 374.705 289.76345 
+L 374.705 393.46 
+L 305.265 393.46 
+z
+" style="fill: #29a79c"/>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 12.4px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="339.985" y="280.762794" transform="rotate(-0 339.985 280.762794)">8.98</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 405.395 235.605675 
+L 474.835 235.605675 
+L 474.835 393.46 
+L 405.395 393.46 
+z
+" style="fill: #f08c38"/>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 12.4px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="440.115" y="226.605019" transform="rotate(-0 440.115 226.605019)">13.67</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 29.52 466.62 
+L 206.84 466.62 
+L 206.84 501.96 
+L 29.52 501.96 
+z
+" style="fill: #e9f2f9; stroke: #17395e; stroke-width: 0.558; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 10.54px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="118.18" y="486.652442" transform="rotate(-0 118.18 486.652442)">Metric</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 206.84 466.62 
+L 272.56 466.62 
+L 272.56 501.96 
+L 206.84 501.96 
+z
+" style="fill: #e9f2f9; stroke: #17395e; stroke-width: 0.558; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 10.54px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="239.7" y="486.652442" transform="rotate(-0 239.7 486.652442)">Zero</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 272.56 466.62 
+L 343.24 466.62 
+L 343.24 501.96 
+L 272.56 501.96 
+z
+" style="fill: #e9f2f9; stroke: #17395e; stroke-width: 0.558; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 10.54px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="307.9" y="486.65903" transform="rotate(-0 307.9 486.65903)">(0, 0.10]</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 343.24 466.62 
+L 426.32 466.62 
+L 426.32 501.96 
+L 343.24 501.96 
+z
+" style="fill: #e9f2f9; stroke: #17395e; stroke-width: 0.558; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 10.54px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="384.78" y="486.65903" transform="rotate(-0 384.78 486.65903)">(0.10, 0.25]</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 426.32 466.62 
+L 492.04 466.62 
+L 492.04 501.96 
+L 426.32 501.96 
+z
+" style="fill: #e9f2f9; stroke: #17395e; stroke-width: 0.558; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 10.54px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="459.18" y="486.652442" transform="rotate(-0 459.18 486.652442)">&gt;0.25</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 29.52 501.96 
+L 206.84 501.96 
+L 206.84 542.88 
+L 29.52 542.88 
+z
+" style="fill: #e9f2f9; stroke: #17395e; stroke-width: 0.558; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 10.54px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="118.18" y="524.782442" transform="rotate(-0 118.18 524.782442)">Number of Cases</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 206.84 501.96 
+L 272.56 501.96 
+L 272.56 542.88 
+L 206.84 542.88 
+z
+" style="fill: #ffffff; stroke: #17395e; stroke-width: 0.558; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 12.4px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="239.7" y="525.398906" transform="rotate(-0 239.7 525.398906)">26</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 272.56 501.96 
+L 343.24 501.96 
+L 343.24 542.88 
+L 272.56 542.88 
+z
+" style="fill: #ffffff; stroke: #17395e; stroke-width: 0.558; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 12.4px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="307.9" y="525.398906" transform="rotate(-0 307.9 525.398906)">25</text>
+   </g>
+   <g id="patch_15">
+    <path d="M 343.24 501.96 
+L 426.32 501.96 
+L 426.32 542.88 
+L 343.24 542.88 
+z
+" style="fill: #ffffff; stroke: #17395e; stroke-width: 0.558; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 12.4px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="384.78" y="525.398906" transform="rotate(-0 384.78 525.398906)">45</text>
+   </g>
+   <g id="patch_16">
+    <path d="M 426.32 501.96 
+L 492.04 501.96 
+L 492.04 542.88 
+L 426.32 542.88 
+z
+" style="fill: #ffffff; stroke: #17395e; stroke-width: 0.558; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 12.4px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="459.18" y="525.398906" transform="rotate(-0 459.18 525.398906)">24</text>
+   </g>
+   <g id="patch_17">
+    <path d="M 29.52 542.88 
+L 206.84 542.88 
+L 206.84 598.68 
+L 29.52 598.68 
+z
+" style="fill: #e9f2f9; stroke: #17395e; stroke-width: 0.558; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 10.54px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; fill: #182733" transform="translate(53.75178 568.632788)">Events Requiring Expansion</text>
+    <text style="font-weight: 700; font-size: 10.54px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; fill: #182733" transform="translate(57.118816 577.816784)">to Both Maintenance Tasks</text>
+   </g>
+   <g id="patch_18">
+    <path d="M 206.84 542.88 
+L 272.56 542.88 
+L 272.56 598.68 
+L 206.84 598.68 
+z
+" style="fill: #ffffff; stroke: #17395e; stroke-width: 0.558; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 12.4px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="239.7" y="573.758906" transform="rotate(-0 239.7 573.758906)">0</text>
+   </g>
+   <g id="patch_19">
+    <path d="M 272.56 542.88 
+L 343.24 542.88 
+L 343.24 598.68 
+L 272.56 598.68 
+z
+" style="fill: #ffffff; stroke: #17395e; stroke-width: 0.558; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 12.4px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="307.9" y="573.758906" transform="rotate(-0 307.9 573.758906)">1</text>
+   </g>
+   <g id="patch_20">
+    <path d="M 343.24 542.88 
+L 426.32 542.88 
+L 426.32 598.68 
+L 343.24 598.68 
+z
+" style="fill: #ffffff; stroke: #17395e; stroke-width: 0.558; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 12.4px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="384.78" y="573.758906" transform="rotate(-0 384.78 573.758906)">20</text>
+   </g>
+   <g id="patch_21">
+    <path d="M 426.32 542.88 
+L 492.04 542.88 
+L 492.04 598.68 
+L 426.32 598.68 
+z
+" style="fill: #ffffff; stroke: #17395e; stroke-width: 0.558; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 12.4px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="459.18" y="573.758906" transform="rotate(-0 459.18 573.758906)">9</text>
+   </g>
+   <g id="patch_22">
+    <path d="M 538.54 88.42 
+L 965.1 88.42 
+Q 970.68 88.42 970.68 94 
+L 970.68 200.64 
+Q 970.68 206.22 965.1 206.22 
+L 538.54 206.22 
+Q 532.96 206.22 532.96 200.64 
+L 532.96 94 
+Q 532.96 88.42 538.54 88.42 
+z
+" style="fill: #e9f2f9; stroke: #7ba8ce; stroke-width: 0.682; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 11.78px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="751.82" y="109.838917" transform="rotate(-0 751.82 109.838917)">Mean savings = 14.78 units per case</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 11.78px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="751.82" y="135.269961" transform="rotate(-0 751.82 135.269961)">95% interval = 14.18–15.41 units</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 11.78px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="751.82" y="160.678917" transform="rotate(-0 751.82 160.678917)">Exogenous-change cases mean cost = 9.02 units</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 11.78px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="751.82" y="186.109961" transform="rotate(-0 751.82 186.109961)">Reduction vs full recomputation = 59.0%</text>
+   </g>
+   <g id="line2d_16">
+    <path d="M 596.82 244.66 
+L 596.82 544.74 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 1.116"/>
+   </g>
+   <g id="line2d_17">
+    <path d="M 592.48 544.74 
+L 596.82 544.74 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="572.33" y="547.421016" transform="rotate(-0 572.33 547.421016)">0.000</text>
+   </g>
+   <g id="line2d_18">
+    <path d="M 592.48 507.23 
+L 596.82 507.23 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="572.33" y="509.911016" transform="rotate(-0 572.33 509.911016)">0.020</text>
+   </g>
+   <g id="line2d_19">
+    <path d="M 592.48 469.72 
+L 596.82 469.72 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="572.33" y="472.401016" transform="rotate(-0 572.33 472.401016)">0.040</text>
+   </g>
+   <g id="line2d_20">
+    <path d="M 592.48 432.21 
+L 596.82 432.21 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="572.33" y="434.891016" transform="rotate(-0 572.33 434.891016)">0.060</text>
+   </g>
+   <g id="line2d_21">
+    <path d="M 592.48 394.7 
+L 596.82 394.7 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="572.33" y="397.381016" transform="rotate(-0 572.33 397.381016)">0.080</text>
+   </g>
+   <g id="line2d_22">
+    <path d="M 592.48 357.19 
+L 596.82 357.19 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="572.33" y="359.871016" transform="rotate(-0 572.33 359.871016)">0.100</text>
+   </g>
+   <g id="line2d_23">
+    <path d="M 592.48 319.68 
+L 596.82 319.68 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="572.33" y="322.361016" transform="rotate(-0 572.33 322.361016)">0.120</text>
+   </g>
+   <g id="line2d_24">
+    <path d="M 592.48 282.17 
+L 596.82 282.17 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="572.33" y="284.851016" transform="rotate(-0 572.33 284.851016)">0.140</text>
+   </g>
+   <g id="line2d_25">
+    <path d="M 592.48 244.66 
+L 596.82 244.66 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="572.33" y="247.341016" transform="rotate(-0 572.33 247.341016)">0.160</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 11.78px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; fill: #182733" transform="translate(538.269961 429.727094) rotate(-90)">P95 Time (ms)</text>
+   </g>
+   <g id="line2d_26">
+    <path d="M 596.82 544.74 
+L 974.4 544.74 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 1.116"/>
+   </g>
+   <g id="line2d_27">
+    <path d="M 644.0175 544.74 
+L 644.0175 549.08 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="644.0175" y="561.371016" transform="rotate(-0 644.0175 561.371016)">Zero</text>
+   </g>
+   <g id="line2d_28">
+    <path d="M 738.4125 544.74 
+L 738.4125 549.08 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="738.4125" y="561.371016" transform="rotate(-0 738.4125 561.371016)">(0, 0.10]</text>
+   </g>
+   <g id="line2d_29">
+    <path d="M 832.8075 544.74 
+L 832.8075 549.08 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="832.8075" y="561.371016" transform="rotate(-0 832.8075 561.371016)">(0.10, 0.25]</text>
+   </g>
+   <g id="line2d_30">
+    <path d="M 927.2025 544.74 
+L 927.2025 549.08 
+" clip-path="url(#pec46f802d4)" style="fill: none; stroke: #182733; stroke-width: 0.775"/>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 11.16px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="927.2025" y="561.371016" transform="rotate(-0 927.2025 561.371016)">&gt;0.25</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 11.78px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="785.61" y="581.038917" transform="rotate(-0 785.61 581.038917)">Production Disturbance Intensity</text>
+   </g>
+   <g id="patch_23">
+    <path d="M 611.4675 499.54045 
+L 676.5675 499.54045 
+L 676.5675 544.74 
+L 611.4675 544.74 
+z
+" style="fill: #639edd"/>
+   </g>
+   <g id="text_55">
+    <text style="font-weight: 700; font-size: 12.4px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="644.0175" y="490.539794" transform="rotate(-0 644.0175 490.539794)">0.024</text>
+   </g>
+   <g id="patch_24">
+    <path d="M 705.8625 328.86995 
+L 770.9625 328.86995 
+L 770.9625 544.74 
+L 705.8625 544.74 
+z
+" style="fill: #2978bd"/>
+   </g>
+   <g id="text_56">
+    <text style="font-weight: 700; font-size: 12.4px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="738.4125" y="319.869294" transform="rotate(-0 738.4125 319.869294)">0.115</text>
+   </g>
+   <g id="patch_25">
+    <path d="M 800.2575 295.86115 
+L 865.3575 295.86115 
+L 865.3575 544.74 
+L 800.2575 544.74 
+z
+" style="fill: #29a79c"/>
+   </g>
+   <g id="text_57">
+    <text style="font-weight: 700; font-size: 12.4px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="832.8075" y="286.860494" transform="rotate(-0 832.8075 286.860494)">0.133</text>
+   </g>
+   <g id="patch_26">
+    <path d="M 894.6525 368.443 
+L 959.7525 368.443 
+L 959.7525 544.74 
+L 894.6525 544.74 
+z
+" style="fill: #f08c38"/>
+   </g>
+   <g id="text_58">
+    <text style="font-weight: 700; font-size: 12.4px; font-family: 'Times New Roman', 'Liberation Serif', 'DejaVu Serif', serif; text-anchor: middle; fill: #182733" x="927.2025" y="359.442344" transform="rotate(-0 927.2025 359.442344)">0.094</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pec46f802d4">
+   <rect x="7.2" y="7.2" width="992" height="620"/>
+  </clipPath>
+ </defs>
+</svg>
